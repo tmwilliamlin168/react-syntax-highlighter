@@ -122,7 +122,7 @@
     "dev": "webpack-dev-server --hot --inline",
     "format": "npm run prettier",
     "lint": "eslint --ext .js,.jsx ./src ./scripts ./__tests__",
-    "prepare": "npm run build-styles-hljs && npm run build-languages-hljs && npm run build-styles-prism && npm run build-languages-prism && npm run build",
+    "preparecancer": "npm run build-styles-hljs && npm run build-languages-hljs && npm run build-styles-prism && npm run build-languages-prism && npm run build",
     "prettier": "prettier --write --no-editorconfig \"{src,scripts,__tests__}/**/*.js\"",
     "publish-coverage": "codecov",
     "test": "jest",
